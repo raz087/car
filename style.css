@@ -1,0 +1,808 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: "Open Sans", sans-serif;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+ol,
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+input {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  -ms-box-shadow: none;
+}
+button,
+a {
+  cursor: pointer;
+  text-decoration: none !important;
+  border: 0;
+  display: inline-block;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  outline: none;
+  font-weight: 400;
+  user-select: none;
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.d_flex{
+  display: flex;
+}
+
+.just_content_between{
+  justify-content: space-between;
+}
+
+.header_color{
+    background: #3DA9FC;  
+    width: 100%;  
+}
+
+.global_shiping{
+    margin: 5px 0 5px;
+    max-width: 50.66px;
+    width: 100%;
+}
+
+.cars{
+  font-family: 'Quantico', sans-serif;
+}
+
+.flex_header{
+  display: flex;
+}
+
+.header_icon_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_header{
+    display: flex;
+}
+
+.home{
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFE;
+}
+
+.header_text{
+  padding-right: 31px;
+}
+
+.button_home_auctions_calendar_sale_list_for_georgia{
+  margin-top: 15px;
+  display: flex;
+}
+
+.home_button{
+  font-size: 12px;
+  color: #094067;
+  align-self: center;
+  padding: 8px 12px;
+  width: 56px;
+  height: 30px;
+  background: #FFFFFF;  
+  border-radius: 15px;
+}
+
+.auctions_button{
+  font-size: 12px;
+  line-height: 14px;
+  color: #094067;
+  flex: none;
+  order: 1;
+  align-self: center;
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  padding: 8px 12px;
+  position: absolute;
+  width: 121px; 
+  height: 30px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 38px rgba(9, 64, 103, 0.12);
+  border-radius: 15px;
+
+}
+
+.auctions_calendar_button{
+  font-size: 12px;
+  color: #094067;
+  width: 121px;
+  height: 30px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 38px rgba(9, 64, 103, 0.12);
+  border-radius: 15px;
+}
+
+.sale_button{
+    font-size: 12px;
+    line-height: 14px;
+    color: #094067;
+    width: 121px;
+    height: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 38px rgba(9, 64, 103, 0.12);
+    border-radius: 15px;
+}
+
+.bmw_button{
+  font-size: 12px;
+  color: #FFFFFF;
+  order: 1;
+  width: 155px;
+  height: 30px;
+  background: #094067;
+  box-shadow: 0px 4px 38px rgba(9, 64, 103, 0.32);
+  border-radius: 15px;
+}
+
+.sale_text{
+  margin-left: 16.5px;
+  font-size: 34px;
+  line-height: 41px;
+  color: #094067;
+}
+
+.icon_p_flex{
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.participants_p{
+  margin-top: 15px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #5F6C7B;
+}
+
+.img_georgia_smoll{
+  margin-left: 16px;
+}
+
+.p_img_p_icon{
+  display: flex;
+  align-items: center;
+}
+
+.show_by{
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  color: #5F6C7B;
+}
+
+.icon_div_flex{
+  display: flex;
+}
+
+.search_icon_p{
+  display: flex;
+  justify-content: space-between;
+}
+
+.only_in_georgia{
+  margin-left: 4px;
+  line-height: 19px;
+  color: #094067;
+}
+
+.home_1{
+  border: none;
+}
+
+.bmw_2014_3er_color_blue{
+  height: 73px;
+  background: #094067;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.loto_2014_upcoming{
+  margin: 16px 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.loto{
+  margin-left: 16px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.upcoming_lots{
+  font-size: 24px;
+  line-height: 29px;
+  text-align: right;
+  color: #FFFFFF;
+  margin-right: 113px;
+}
+
+.text{
+  margin: 0 0 12px;
+  width: 219px;
+  height: 30px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 38px rgba(9, 64, 103, 0.12);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vin{
+  margin-left: 8px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #5F6C7B;
+}
+
+.bmw_2014{
+  font-size: 34px;
+  line-height: 41px;
+  color: #FFFFFF;
+}
+
+.gNCS18Z3M0115561{
+  margin-right: 8px;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: right;
+  color: #5F6C7B;
+}
+
+.icon_1{
+  margin: 8.16px 0 7px ;
+}
+
+.icon_2{
+  margin: 8.16px 0 7px 8px;
+}
+
+.icon_4{
+margin: 0px 0 0 8px;
+}
+
+.button_radius_text{
+  border-radius: 50%;
+  width: 162px;
+  height: 162.65px;
+  background: rgba(9, 64, 103, 0.2);
+  box-shadow: 0px 4px 38px rgba(9, 64, 103, 0.16);
+}
+
+.left_65{
+  text-align: end;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5F6C7B;
+}
+
+.color_white{
+  border-radius: 50%;
+  width: 132px;
+  height: 132.72px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 38px rgba(9, 64, 103, 0.64);
+}
+
+.iamge_block_background{
+  max-width: 304px;
+  width: 100%;
+  display: block;
+  background-image: url(/img/bmw-big.png);
+  background-size: cover;
+  padding: 153.5px 152px;
+}
+
+.image_block_widht{
+  max-width: 304px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.auction_info_block{
+  max-width: 571px;
+  width: 100%;
+}
+
+.auction_tablick_block{
+  max-width: 571px;
+  width: 100%;
+}
+
+.globus_block{
+  background: rgba(9, 64, 103, 0.2);
+ box-shadow: 2px 1px 38px 20px rgba(0, 0, 0, 0.16);
+  max-width: 162px;
+  width: 100%;
+  height: 162px;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 16px auto;
+}
+
+.globus_block_xlbrdon{
+  max-width: 132px;
+  width: 100%;
+  height: 132px;
+  padding: 66px;
+  background: white;
+  border-radius: 50%;
+}
+
+.auction_tablick_one_line_block{
+  position: relative;
+  max-width: 288px;
+  width: 100%;
+}
+
+.icon_radion{
+  position: absolute;
+  top: 24px;
+  right: 30.5px;
+}
+
+.line_one{
+  width: 38.8px;
+  position: absolute;
+  opacity: 0.68;
+  box-shadow: 0px 4px 38px rgba(9, 64, 103, 0.4);
+  /* border: 8.14px solid #094067; */
+  height: 14.2px;
+  background: #094067;
+  transform: rotate(0.97deg);
+  top:16.5px;
+  left: 125px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 5px;
+
+}
+
+.text_div{
+  margin-left: 8px;
+}
+
+.img_flag_p{
+  text-align: center;
+  margin-top: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 45px;
+  margin: -66px -22px;
+}
+
+.img_flag{
+  margin-top: 20px;
+}
+
+.uea{
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #5F6C7B;
+}
+
+.auction_tablick_one_line_block{
+  margin-left: 8px;
+  width: 288px;
+  height: 613px; 
+  background: #FFFFFF;
+}
+
+.button_input_button{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 16px;
+}
+
+.button_minus{
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  background: #094067;
+  box-shadow: 0px 4px 38px rgba(9, 64, 103, 0.12);
+}
+
+.input_number{
+  width: 138px;
+  height: 44px;
+  background: #FFFFFF;
+  border: none;
+  box-shadow: 0px 4px 38px rgba(9, 64, 103, 0.12);
+  border-radius: 25px;
+}
+
+.button_plyus{
+  width: 44px;
+  height: 44px;
+  background: #094067;
+  box-shadow: 0px 4px 38px rgba(9, 64, 103, 0.12);
+  border-radius: 50%
+}
+
+::placeholder {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #094067;
+}
+
+.button_bid{
+  margin-top: 15px;
+  margin-left: 16px;
+  width: 256px;
+  height: 50px;         
+  background: #3DA9FC;
+  border-radius: 34px;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.previous_bids{
+  width: 256px;
+  height: 40px;
+  margin-left: 16px;
+  background: #094067;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.previous_bids_p{
+  margin-top: 16px;
+  padding:  10px 0 11px 8px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.div_arm_number{
+  max-width: 124px;
+  width: 100%;
+  height: 47px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 38px rgba(9, 64, 103, 0.12);
+  border-radius: 8px;
+}
+
+.div_arm_number_2{
+  background: #FFFFFF;
+  margin-left: 8px;
+  box-shadow: 0px 2px 38px rgba(9, 64, 103, 0.12);
+  border-radius: 8px;
+  max-width: 124px;
+  width: 100%;
+  height: 47px;
+}
+
+.flex_img_p{
+  display: flex;
+  align-items: center;
+} 
+
+.img_arm{
+  margin: 9px 0 4px 8px;
+  max-width: 18.6px;
+  width: 100%;
+}
+
+.arm_p{
+  padding: 8px 49px 0 4.34px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #5F6C7B;
+}
+
+.mony{
+  margin: 4px 0 8px 8px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #5F6C7B;
+}
+
+.div_2_display_flex{
+  margin-top: 4px;
+  display: flex;
+  margin-left: 16px;
+}
+
+.mony_button_buy_it_now{
+  text-align: center;
+}
+
+.mony_3400{
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #094067;
+  margin-top: 19px;
+}
+
+.buy_it{
+  margin-top: 8px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3DA9FC;
+  width: 256px;
+  height: 50px;
+  border: 1px solid #3DA9FC;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 34px;
+}
+
+.img_css{
+  background-image: url(./img/bmw_right\ \(2\).png);
+  max-width: 140px;
+  width: 100%;
+  height: 120px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.mersedes_right_icon{
+  background-image: url(img/mersedes_right.png);
+  max-width: 140px;
+  width: 100%;
+  height: 120px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.icon_toyota_right{
+  background-image: url(img/toyota_right.png);
+  max-width: 140px;
+  width: 100%;
+  height: 120px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.icon_bmw_right{
+  background-image: url(img/bmw_right.png);
+  max-width: 140px;
+  width: 100%;
+  height: 120px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.bmw_2014_p{
+  max-width: 100px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 19px;
+  color: #094067;
+}
+
+.vin_number{
+  margin-top: 3.94px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5F6C7B;
+}
+
+.img_p_flex{
+  margin-top: 5.31px;
+  display: flex;
+}
+
+.time_15m{
+  background: #094067;
+  border-radius: 8px;
+  position: absolute;
+  bottom: 1px;
+  left: 1px;
+  width: 39px;
+  height: 19px;
+}
+
+.icon_georgia_smoll{
+  max-width: 20px;
+  width: 100%;
+}
+
+.location_georgia{
+  font-size: 14px;
+  line-height: 17px;
+  color: #5F6C7B;
+}
+
+.current_bid{
+  margin-top: 3.19px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5F6C7B;
+
+}
+
+.minut{
+  font-size: 12px;
+line-height: 14px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.width_100{
+  width: 100%;
+}
+
+.dddd{
+  margin-left: 13px;
+  margin-bottom: 8px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 38px rgba(9, 64, 103, 0.12);
+  border-radius: 8px;
+  display: flex;
+  width: 100%;
+}
+
+.xlbrdon_2{
+  width: 100%;
+  margin-left: 16px;
+}
+
+.footer_background{
+  width: 100%;
+  height: 167px;
+  background: #3DA9FC;
+}
+
+.footer_flex{
+  display: flex;
+  justify-content: space-between;
+  padding: 31px 0 0px;
+  padding-bottom: 46px;
+}
+
+.img_instagram_footer{
+  cursor: pointer;
+}
+
+.img_fesbook_footer{
+  margin-left: 8.62px;
+  cursor: pointer;
+}
+
+.global_shiping_2020{
+    margin: auto;
+    max-width: 121px;
+    width: 100%;
+    font-size: 11px;
+    line-height: 120%;
+    color: #FFFFFE;
+}
+
+.about_us{
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFE;
+}
+
+
+

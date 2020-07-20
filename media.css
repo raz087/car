@@ -1,0 +1,45 @@
+@media(max-width:1150px){
+    .container{
+        max-width: 100%; 
+        padding: 0 16px;
+    } 
+    .button_home_auctions_calendar_sale_list_for_georgia{
+        display: flex;
+        justify-content: center;
+    }
+    .d_flex{
+        margin-left: 15px;
+        display: -webkit-inline-box;
+    }
+    .auction_info_block{
+        display: contents;
+    }
+    .icon_1{
+        margin: 0 0 20px;
+    }
+    .icon_2{
+        margin: 0px 0 20px 8px;
+    }
+    .text_div{
+        margin-left: 68px;
+    }
+
+    .icon_4{
+        margin: 0px 0 0 8px;
+    }
+    .xlbrdon_2{
+        display: grid;
+        width: 60%;
+        margin: 10px 0 0 270px;
+    }
+    .footer_flex{
+        justify-content: space-around;
+    }
+    .search_icon_p{
+        justify-content: space-evenly;
+    }
+}
+
+@media(max-width(968px){
+    
+}
